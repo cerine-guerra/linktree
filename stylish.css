@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Kaushan+Script&display=swap');
+
+/* COMMONS */
+body {
+    background-color: #fff7f8;
+    font-family: "Kaushan-script", cursive;
+    font-size: 16px;
+}
+h2 {
+    font-size: 35px;
+    font-family: "Aref Ruqaa", serif;
+    font-style: normal;
+    margin-bottom: 0%;
+    color: #473139;
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+section,
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: auto; 
+    margin-bottom: 20px;
+}
+
+/* HEADER */
+section.header img {
+    max-width: 180px;
+    border-radius: 50%;
+    border: 1px #473139 solid;
+}
+
+/* LINKS */
+section.links .link-item {
+    width: 100%;
+    margin-bottom: 16px;
+}
+section.links .link-item a {
+    display: block;
+    width: 100%;
+    border: 1px #473139 solid;
+    padding: 16px 0;
+    text-align: center;
+    color:#473139;
+    border-radius: 180px;
+    box-shadow: 5px 5px rgb(71, 49, 57);
+    background-color: #D196A0;
+}
+
+section.links .link-item a:hover {
+    animation: shake 0.3s infinite;
+    transition: color 0.1s;
+    color: #fcc5c9;
+    background-color: #8f596a;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(-5px)
+    }
+    25% {
+        transform: translateX(5px)
+    }
+    50% {
+        transform: translateX(-5px)
+    }
+    75% {
+        transform: translateX(5px)
+    }
+    100% {
+        transform: translateX(0px)
+    }
+}
+
+/* FOOTER */
+footer a {
+    color: rgb(0, 0, 0, 0.5);
+}
