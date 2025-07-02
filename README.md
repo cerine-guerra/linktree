@@ -25,6 +25,8 @@ Perfect for small businesses that want to showcase all their important social li
 ## 📸 Preview
 
 ![Screenshot of the Linktree project](preview.png)
+<img src="preview.png" alt="Preview" width="400"/>
+
 
 ---
 
